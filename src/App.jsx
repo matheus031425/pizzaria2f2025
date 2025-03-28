@@ -5,10 +5,10 @@ function App() {
   const [nome, setNome] = useState("Jesus")
  
   // var nome = "Victor";
- 
-  return (
-    <div>
-      <h3>Pizzaria 2F</h3>
+
+  const Formulario = () => {
+    return (
+      <div>
       <input
         className="nome"
         name ="nome"
@@ -20,6 +20,16 @@ function App() {
         onClick={() => { alert(nome) }}>
         CLIQUE AQUI
       </button>
+      </div>
+    )
+  }
+ 
+  return (
+    <div>
+      <h3>Pizzaria 2F</h3>
+      <Formulario />
+      <Formulario />
+      <Formulario />
     </div>
 
    )
