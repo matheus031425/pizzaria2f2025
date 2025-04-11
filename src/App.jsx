@@ -35,7 +35,7 @@ return (
  
  
 <div>
-  <h3>Pizzaria 2F</h3>
+  <h3>Pizzaria de goti 2F</h3>
   <p>texto do parágrafo</p>
   <img src = {poke} style={{width:200, height:100}}/>
     <Formulario sombra="Digite seu nome.." />
